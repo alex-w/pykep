@@ -204,7 +204,8 @@
 <li class="toctree-l2"><a class="reference internal" href="udp_sf_point2point.html">Sims-Flanagan: point to point low-thrust transfer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="udp_sf_pl2pl.html">Sims-Flanagan: planet to plane low-thrust transfer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="udp_sf_pl2pl_alpha.html">Sims-Flanagan: planet to plane low-thrust transfer (with Alpha encoding)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="udp_zoh_point2point.html">Zero Order Hold: point to point low thrust transfer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="udp_zoh_point2point.html">Zero-Order Hold UDP: point-to-point trajectory optimization</a></li>
+
 
 
 
@@ -599,7 +600,7 @@ where \)</span>T_k<span class="math notranslate nohighlight">\( is the throttle 
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>4.4544117027049553e-08
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1.9888476454904942e-07
 </pre></div>
 </div>
 </div>
@@ -614,7 +615,7 @@ where \)</span>T_k<span class="math notranslate nohighlight">\( is the throttle 
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3.8385393358974231e-07
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1.9192231461420049e-07
 </pre></div>
 </div>
 </div>
@@ -629,7 +630,7 @@ where \)</span>T_k<span class="math notranslate nohighlight">\( is the throttle 
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3.9529644816112709e-07
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2.0269394825473777e-07
 </pre></div>
 </div>
 </div>
@@ -643,7 +644,7 @@ where \)</span>T_k<span class="math notranslate nohighlight">\( is the throttle 
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3.3322350038698326e-08
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2.1876149308252384e-08
 </pre></div>
 </div>
 </div>
@@ -657,7 +658,7 @@ where \)</span>T_k<span class="math notranslate nohighlight">\( is the throttle 
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3.5453955415422945e-08
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3.6912224772794862e-08
 </pre></div>
 </div>
 </div>
@@ -682,7 +683,7 @@ where \)</span>T_k<span class="math notranslate nohighlight">\( is the throttle 
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/7ce590b3e81f3dd3fdf04cab778082102867743f7976b1e4473a356fb69ae7be.png" src="../_images/7ce590b3e81f3dd3fdf04cab778082102867743f7976b1e4473a356fb69ae7be.png" />
+<img alt="../_images/8f9c98c66944707029f5b7a1edfaf36b80146f2d833507b5a6159407c96b177f.png" src="../_images/8f9c98c66944707029f5b7a1edfaf36b80146f2d833507b5a6159407c96b177f.png" />
 </div>
 </div>
 </section>
@@ -842,7 +843,7 @@ where \)</span>T_k<span class="math notranslate nohighlight">\( is the throttle 
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>The mismatch constraints are:  [5.863087793045452e-13, -1.1197709426369329e-12, -6.874770265977553e-42, -2.8921309791485328e-12, -5.852401896433435e-13, 1.84139376327683e-42, 0.0]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>The mismatch constraints are:  [-4.168554390560075e-12, -5.258016244624741e-13, -1.0887388418571666e-41, -5.814571046869332e-12, 2.1032064978498966e-12, -9.686825959261379e-42, 0.0]
 </pre></div>
 </div>
 </div>
@@ -868,7 +869,7 @@ where \)</span>T_k<span class="math notranslate nohighlight">\( is the throttle 
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/f3b319319eafe0cdb2065073c6c59a22980bdbc1c5a77ca7814f62a8da99d6f4.png" src="../_images/f3b319319eafe0cdb2065073c6c59a22980bdbc1c5a77ca7814f62a8da99d6f4.png" />
+<img alt="../_images/fc864c29d6acae4a4cd5d10254c84481ecd6cb9ab2abf9e090192b5086124d0f.png" src="../_images/fc864c29d6acae4a4cd5d10254c84481ecd6cb9ab2abf9e090192b5086124d0f.png" />
 </div>
 </div>
 <p>This no-thrust case yields a near-zero mismatch, as expected from consistency with the reference dynamics.</p>
@@ -884,7 +885,7 @@ where \)</span>T_k<span class="math notranslate nohighlight">\( is the throttle 
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>The mismatch constraints are:  [-0.07433708312400589, -0.11841754861459641, -1.3851283830274395e-31, -0.11667775530319546, 0.13020407120284333, 3.803896815642408e-32, -0.7079292390527286]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>The mismatch constraints are:  [-0.08473809549043437, 0.0051128777963074246, -1.477293938373855e-31, 0.08623966455840318, 0.06796429899543344, -3.1884305171844664e-32, -0.3933503591667743]
 </pre></div>
 </div>
 </div>
@@ -909,7 +910,7 @@ where \)</span>T_k<span class="math notranslate nohighlight">\( is the throttle 
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/c1f02173852c937ab02e3142877b6b62e2e5cc963e2983f9bc600d660e38f93e.png" src="../_images/c1f02173852c937ab02e3142877b6b62e2e5cc963e2983f9bc600d660e38f93e.png" />
+<img alt="../_images/6d257af8975eb205d03b68ec52e5c371835355f8dc9c084bc8469776afdb3b33.png" src="../_images/6d257af8975eb205d03b68ec52e5c371835355f8dc9c084bc8469776afdb3b33.png" />
 </div>
 </div>
 <p>The result is consistent: introducing non-zero controls with fixed boundaries generally increases mismatch unless controls are optimized.</p>
